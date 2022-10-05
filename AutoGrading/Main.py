@@ -12,6 +12,7 @@ while True:
             print("INVALID INPUT")
 
         else:
+            print("Restarting program!")
             break
     
     if stop == "no":

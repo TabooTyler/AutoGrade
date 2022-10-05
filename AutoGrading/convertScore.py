@@ -7,6 +7,9 @@ def percentConvert():
     if percentage == 100:
         print("Congratulations! 100%")
         
+    elif percentage > 100:
+        print("Amount(s) entered incorrect. Please try again.")
+        
     elif percentage >= 99:
         print("A+")
         
